@@ -9,6 +9,7 @@ package com.williamfiset.algorithms.datastructures.balancedtree;
 import com.williamfiset.algorithms.datastructures.utils.TreePrinter;
 import com.williamfiset.algorithms.datastructures.utils.TreePrinter.PrintableNode;
 
+
 public class AVLTreeRecursive<T extends Comparable<T>> implements Iterable<T> {
 
   public class Node implements PrintableNode {
